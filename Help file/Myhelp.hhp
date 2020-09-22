@@ -1,0 +1,30 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=myHelp.chm
+Contents file=Table of Contents.hhc
+Default topic=HTML\Index.htm
+Display compile progress=No
+Language=0x413 Dutch (Netherlands)
+Title=Introduction to HTML Help
+
+
+[FILES]
+HTML\Index.htm
+HTML\Filelistbox.htm
+HTML\Textbox.htm
+
+[ALIAS]
+IDH_FILELISTBOX=HTML\Filelistbox.htm
+IDH_INDEX=HTML\Index.htm
+IDH_TEXTBOX=HTML\Textbox.htm
+
+[MAP]
+#include header.h
+#include popups.h
+
+[TEXT POPUPS]
+popups.h
+popups.txt
+
+[INFOTYPES]
+
